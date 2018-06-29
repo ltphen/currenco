@@ -85,7 +85,7 @@ class Dynamic{
      */
     registerSW(){
         if('serviceWorker' in navigator){
-            navigator.serviceWorker.register("/currenco/sw.js", { scope : "/currenco/"})
+            navigator.serviceWorker.register("/sw.js", { scope : "/currenco/"})
             .then((reg)=>{
                 console.log("Registraion succeed !");
             }).catch((error)=>{
