@@ -4,6 +4,8 @@ self.addEventListener("install", function(event){
     event.waitUntil(
         caches.open(cachename).then(function(cache){
             cache.addAll([
+                "/",
+                "/currenco/",
                 "/currenco/index.html",
                 "/currenco/partials/gsOne.html",
                 "/currenco/partials/gsTwo.html",
