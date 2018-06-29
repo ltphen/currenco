@@ -4,24 +4,24 @@ self.addEventListener("install", function(event){
     event.waitUntil(
         caches.open(cachename).then(function(cache){
             cache.addAll([
-                "/index.html",
-                "/partials/gsOne.html",
-                "/partials/gsTwo.html",
-                "/partials/gsThree.html",
-                "/partials/gsFour.html",
-                "/partials/beToBe.html",
-                "/partials/currencies.html",
-                "/partials/countries.html",
-                "/css/main.css",
-                "/js/db.js",
-                "/js/html.js",
-                "/js/api.js",
+                "/currenco/index.html",
+                "/currenco/partials/gsOne.html",
+                "/currenco/partials/gsTwo.html",
+                "/currenco/partials/gsThree.html",
+                "/currenco/partials/gsFour.html",
+                "/currenco/partials/beToBe.html",
+                "/currenco/partials/currencies.html",
+                "/currenco/partials/countries.html",
+                "/currenco/css/main.css",
+                "/currenco/js/db.js",
+                "/currenco/js/html.js",
+                "/currenco/js/api.js",
                 "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js",
                 "https://cdn.jsdelivr.net/npm/idb@2.1.3/lib/idb.min.js",
                 "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css",
                 "https://fonts.googleapis.com/icon?family=Material+Icons",
-                "/js/app.js",
-                "/js/dynamic.js",
+                "/currenco/js/app.js",
+                "/currenco/js/dynamic.js",
             ]);
         })
     );
