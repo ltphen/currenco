@@ -1,0 +1,27 @@
+.gs h1{
+    margin: 5% 0px !important;
+}
+.gs h5{
+    margin: 15% 0px !important;
+}
+
+.btn, .btn-large{
+    border-radius: 50px !important;
+    background: rgb(62, 153, 62);
+    color: white;
+}
+.card{
+    font-size: 2em;
+}
+#gs{
+    background-image : url("./../images/cool-background.png");
+    color: white;
+    background-size: cover; 
+
+}
+nav{
+    background : #252180 !important;
+}
+.preloader-wrapper{
+    margin-left: 50% !important;
+}
