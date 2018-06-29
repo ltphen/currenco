@@ -4,8 +4,7 @@ self.addEventListener("install", function(event){
     event.waitUntil(
         caches.open(cachename).then(function(cache){
             cache.addAll([
-                "/index.html",
-               /* "/currenco/index.html",
+                "/currenco/index.html",
                 "/currenco/partials/gsOne.html",
                 "/currenco/partials/gsTwo.html",
                 "/currenco/partials/gsThree.html",
@@ -22,7 +21,7 @@ self.addEventListener("install", function(event){
                 "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css",
                 "https://fonts.googleapis.com/icon?family=Material+Icons",
                 "/currenco/js/app.js",
-                "/currenco/js/dynamic.js",*/
+                "/currenco/js/dynamic.js",
             ]);
         })
     );
